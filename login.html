@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--------------------header------------------->
+
+    <header>
+        <div>
+          <header>
+              <div class="logo">
+                  <a href="index.html">
+                      <img src="Tune_.png" alt="Logo" height="150px">
+                  </a>
+              </div>
+          <nav class="main-menu">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="songs.html" target="_blank">Songs</a>
+                 <li><a href="contact_form.html" target="_blank">Contact</a></li>
+                 <li><a href="login.html" target="_blank">Login</a></li>
+                 <li><a href="sign_up.html" target="_blank">Sign Up</a></li>
+              </ul>        
+              </div> 
+          </nav> 
+      </header>
+      <hr>
+
+      <!----------------login form------------------>
+
+<form action="action_page.php" style="border:1px solid #f2f2f2">
+    <div class="container" style="background-color: #f2f2f2;">
+        <h2><u>Login</u></h2>
+    <p>Please fill in this form to login.</p>
+    <hr>
+
+    <label for="email"><b><u>Email:</u></b></label>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="psw"><b><u>Password:</u></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b><u>Confirm Password:</u></b></label>
+    <input type="password" placeholder="Confirm Password" name="psw-confirm" required><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By logging in you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Log in</button>
+      <span class="psw"><a href="sign_up.html">New user? Register now.</a></span>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

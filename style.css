@@ -1,0 +1,219 @@
+body{
+    margin: 30px 30px 30px 30px  ;
+}
+
+
+.logo {
+    float: center;
+    padding-left: 450px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/**********************nav***********************/
+
+.main-menu{
+    background-color: pink;
+    
+}
+
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.main-menu > ul > li{
+    display: inline-block;
+}
+
+.main-menu >ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 24;
+}
+
+.main-menu >ul > li > a:hover {
+    background-color: black;
+}
+
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+
+.drop > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: black;
+}
+
+.drop > li > a:hover {
+    background-color: grey;
+}
+
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+
+/**********************nav***********************/
+
+/**********************forms**************************/
+
+.container{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form input, textarea, button {
+    display: inline-block;
+    margin: 30px;
+}
+
+.contact-box {
+    padding-left: 500px;
+    display: center;
+} 
+
+ .input-field {
+    padding-top: 60px ;
+    margin:10px ;
+} 
+
+.row{
+    margin: 30px;
+}
+
+button {
+    background-color:green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+button:hover {
+    opacity:1;
+  }
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: rgb(204, 26, 26);
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.box {
+    text-align: center;
+    background-color: #f2f2f2;
+    
+}
+
+/**********************forms**************************/
+
+/**********************footer*********************************/
+
+.site-footer{
+    background-color:#26272b;
+    padding:45px 0px 20px;
+    font-size:17px;
+    line-height:24px;
+    color:#737373;
+
+}
+
+.site-footer hr{
+    border-top-color:#bbb;
+    opacity:0.5
+}
+
+.site-footer hr.small{
+    margin:20px 0
+}
+
+.site-footer h6{
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:0px;
+    letter-spacing:2px
+}
+
+.site-footer a{
+    color:#737373;
+    text-decoration-style: solid;
+    text-decoration: none;
+}
+
+.site-footer a:hover{
+    color: pink;
+    text-decoration:none;
+}
+
+.footer-links{
+    padding-left:0;
+    list-style: none;
+    margin-top: 0%;
+}
+
+.footer-links li{
+    display: block;
+}
+
+.footer-links a{
+    color:#737373
+}
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover, .quick-links{
+    color: pink;
+    text-decoration: none;
+}
+
+.address{
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+
+}
+
+.copyright-text{
+    margin:0;
+}
+
+@media (max-width:991px)
+{
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px;
+    }
+}
+  
+@media (max-width:767px)
+{
+
+.site-footer{
+      padding-bottom:0;
+    }
+}
+
+/**********************footer*********************************/

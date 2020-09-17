@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-------------------------header------------------------>
+    <header>
+        <div>
+          <header>
+              <div class="logo">
+                  <a href="index.html">
+                      <img src="Tune_.png" alt="Logo" height="150px">
+                  </a>
+              </div>
+          <nav class="main-menu">
+              <ul>
+                  <li><a href="index.html" target="_blank">Home</a></li>
+                  <li><a href="songs.html" target="_blank">Songs</a>
+                 <li><a href="contact_form.html" target="_blank">Contact</a></li>
+                 <li><a href="login.html" target="_blank">Login</a></li>
+                 <li><a href="sign_up.html" target="_blank">Sign Up</a></li>
+              </ul>        
+              </div> 
+          </nav> 
+      </header>
+      <hr>
+
+
+      <!-----------------Sign up form---------------------->
+
+    <form action="action_page.php" style="border:1px solid #f2f2f2">
+    <div class="container" style="background-color: #f2f2f2;">
+        <h2><u>Sign Up</u></h2>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="fname"><b><u>First Name:</u></b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" required><br>
+
+    <label for="lname"><b><u>Last Name:</u></b></label>
+    <input type="text" placeholder="Enter Last Name" name="lname" required><br>
+
+    <label for="email"><b><u>Email:</u></b></label>
+    <input type="text" placeholder="Enter Email" name="email" required><br>
+
+    <label for="psw"><b><u>Password:</u></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <label for="psw-repeat"><b><u>Repeat Password:</u></b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="index.html" style="color:dodgerblue" target="_blank">Terms & Conditions</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
